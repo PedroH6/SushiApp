@@ -56,7 +56,12 @@ class IntroPage extends StatelessWidget {
 
 
             //get start button
-            MyButton(text: "Get Started"),
+            MyButton(
+              text: "Get Started",
+              onTap: () {
+                //vá para a página do menu
+              },
+              ),
           ],
         ),
       ),
