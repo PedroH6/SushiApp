@@ -11,6 +11,7 @@ class IntroPage extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(25.0),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(height: 25),
 
@@ -26,7 +27,10 @@ class IntroPage extends StatelessWidget {
             const SizedBox(height: 25),
 
             //icon
-            Image.asset('lib/images/salmon_eggs.png'),
+            Padding(
+              padding: const EdgeInsets.all(50.0),
+              child: Image.asset('lib/images/salmon_eggs.png'),
+            ),
 
             //title
 
