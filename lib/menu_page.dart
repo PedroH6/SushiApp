@@ -20,7 +20,30 @@ class _MenuPageState extends State<MenuPage> {
       ),
       body: Column(
         children: [
-          
+          //promb banner
+          Container(
+            child: Row(
+              children: [
+                Column(
+                  children: [
+                    //promo message
+                    Text('Get 32% Promo'),
+
+                    //redeen button
+
+                  ],
+                ),
+                //image
+                ],
+              ),
+            ),
+
+          //search bar
+
+          //menu list
+
+          //popular food 
+
         ],
       ),
     );
