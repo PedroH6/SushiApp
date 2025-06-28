@@ -41,6 +41,8 @@ class IntroPage extends StatelessWidget {
               ),
             ),
 
+            const SizedBox(height: 10)
+
             //subtitle
 
             //get start button
