@@ -33,6 +33,13 @@ class IntroPage extends StatelessWidget {
             ),
 
             //title
+            Text(
+              "THE TASTE OF JAPONESE FOOD ",
+              style: GoogleFonts.dmSerifDisplay(
+                fontSize: 28,
+                color: Colors.white,
+              ),
+            ),
 
             //subtitle
 
