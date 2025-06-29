@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sushi_app/components/button.dart';
+import 'theme/colors.dart';
 
 class MenuPage extends StatefulWidget {
   const MenuPage({super.key});
@@ -23,7 +24,7 @@ class _MenuPageState extends State<MenuPage> {
         children: [
           //promb banner
           Container(
-            decoration: BoxDecoration(),
+            decoration: BoxDecoration(color: primiryColor),
             child: Row(
               children: [
                 Column(
