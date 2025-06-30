@@ -32,7 +32,7 @@ class _MenuPageState extends State<MenuPage> {
             margin: const EdgeInsets.symmetric(horizontal: 20),
             padding: const EdgeInsets.all(25),
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
