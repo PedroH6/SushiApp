@@ -52,7 +52,9 @@ class _MenuPageState extends State<MenuPage> {
                     }),
                   ],
                 ),
+
                 //image
+                Image.asset("lib/images/many_sushi.png", height: 100),
                 ],
               ),
             ),
