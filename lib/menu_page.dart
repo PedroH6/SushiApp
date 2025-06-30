@@ -29,6 +29,7 @@ class _MenuPageState extends State<MenuPage> {
               borderRadius: BorderRadius.circular(20),
             ),
             margin: const EdgeInsets.symmetric(horizontal: 20),
+            padding: const EdgeInsets.all(25),
             child: Row(
               children: [
                 Column(
