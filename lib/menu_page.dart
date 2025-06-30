@@ -37,6 +37,8 @@ class _MenuPageState extends State<MenuPage> {
                     //promo message
                     const Text('Get 32% Promo'),
 
+                    const SizedBox(height: 20),
+
                     //redeen button
                     MyButton(text: 'Redeen', onTap: () {
 
