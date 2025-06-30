@@ -35,7 +35,7 @@ class _MenuPageState extends State<MenuPage> {
                 Column(
                   children: [
                     //promo message
-                    Text('Get 32% Promo'),
+                    const Text('Get 32% Promo'),
 
                     //redeen button
                     MyButton(text: 'Redeen', onTap: () {
