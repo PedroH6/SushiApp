@@ -39,7 +39,7 @@ class _MenuPageState extends State<MenuPage> {
                     Text(
                       'Get 32% Promo',
                       style: GoogleFonts.dmSerifDisplay(
-                        fontSize: 29,
+                        fontSize: 20,
                         color: Colors.white,
                       ),
                     ),
