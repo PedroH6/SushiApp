@@ -25,6 +25,7 @@ class _MenuPageState extends State<MenuPage> {
           //promb banner
           Container(
             decoration: BoxDecoration(color: primiryColor),
+            margin: const EdgeInsets.symmetric(horizontal: 20),
             child: Row(
               children: [
                 Column(
