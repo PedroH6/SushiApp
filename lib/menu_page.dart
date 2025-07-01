@@ -90,7 +90,14 @@ class _MenuPageState extends State<MenuPage> {
           //menu list
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 25.0),
-            child: Text("Food Menu"),
+            child: Text(
+              "Food Menu",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.grey[800],
+                fontSize: 18,
+              ),
+            ),
           ),
 
           //popular food 
