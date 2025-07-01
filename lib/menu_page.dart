@@ -100,6 +100,9 @@ class _MenuPageState extends State<MenuPage> {
             ),
           ),
 
+          const SizedBox(height: 10),
+
+          
           //popular food 
 
         ],
