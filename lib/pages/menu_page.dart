@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sushi_app/components/button.dart';
+import 'package:sushi_app/components/food_tile.dart';
 import 'package:sushi_app/models/food.dart';
 import '../theme/colors.dart';
 
@@ -30,6 +31,7 @@ class _MenuPageState extends State<MenuPage> {
       rating: "4.3",
     ),
   ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -121,7 +123,8 @@ class _MenuPageState extends State<MenuPage> {
 
           Expanded(
             child: ListView.builder(
-              itemBuilder: (context, index) => FoodTitle(),
+              itemCount: foodMenu.length,
+              itemBuilder: (context, index) => FoodTile(food: foodMenu[index]),
             ),
           ),
           //popular food
