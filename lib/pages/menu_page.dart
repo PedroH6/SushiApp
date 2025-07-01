@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sushi_app/components/button.dart';
-import 'theme/colors.dart';
+import '../theme/colors.dart';
 
 class MenuPage extends StatefulWidget {
   const MenuPage({super.key});
