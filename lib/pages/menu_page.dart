@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sushi_app/components/button.dart';
+import 'package:sushi_app/models/food.dart';
 import '../theme/colors.dart';
 
 class MenuPage extends StatefulWidget {
@@ -11,6 +12,18 @@ class MenuPage extends StatefulWidget {
 }
 
 class _MenuPageState extends State<MenuPage> {
+  //Food menu
+  List foodMenu = [
+    //Salmon sushi
+    Food(
+      name: "Salmon",
+      price: "21.00",
+      imagePath: "lib/images/salmon_sushi.png",
+      rating: "4.9",
+    ),
+
+    //tuna
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -50,19 +63,17 @@ class _MenuPageState extends State<MenuPage> {
                     const SizedBox(height: 20),
 
                     //redeen button
-                    MyButton(text: 'Redeen', onTap: () {
-
-                    }),
+                    MyButton(text: 'Redeen', onTap: () {}),
                   ],
                 ),
 
                 //image
                 Image.asset("lib/images/salmon_sushi.png", height: 100),
-                ],
-              ),
+              ],
             ),
+          ),
 
-            const SizedBox(height: 25,),
+          const SizedBox(height: 25),
 
           //search bar
           Padding(
@@ -80,7 +91,7 @@ class _MenuPageState extends State<MenuPage> {
                 enabledBorder: OutlineInputBorder(
                   borderSide: BorderSide(color: Colors.white),
                   borderRadius: BorderRadius.circular(20),
-                )
+                ),
               ),
             ),
           ),
@@ -102,9 +113,7 @@ class _MenuPageState extends State<MenuPage> {
 
           const SizedBox(height: 10),
 
-          
-          //popular food 
-
+          //popular food
         ],
       ),
     );
