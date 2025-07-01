@@ -31,8 +31,10 @@ class FoodTile extends StatelessWidget {
               children: [
 
                 //price
-                Text('R$' + food.price),
+                // ignore: prefer_interpolation_to_compose_strings
+                Text('R\$${food.price}'),
 
+                //rating
                 
               ],
             ),
