@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../models/food.dart';
 
 class FoodTile extends StatelessWidget {
   final Food food;
@@ -14,6 +15,7 @@ class FoodTile extends StatelessWidget {
       child: Column(
         children: [
           //image
+          Image.asset(food.imagePath)
 
           //text
 
