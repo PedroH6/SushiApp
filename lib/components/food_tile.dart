@@ -13,6 +13,7 @@ class FoodTile extends StatelessWidget {
         color: Colors.grey[100],
         borderRadius: BorderRadius.circular(20),
       ),
+      margin: EdgeInsets.only(left: 25),
       child: Column(
         children: [
           //image
