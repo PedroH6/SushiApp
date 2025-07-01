@@ -35,6 +35,7 @@ class FoodTile extends StatelessWidget {
                 Text('R\$${food.price}'),
 
                 //rating
+                Icon(Icons.star),
                 
               ],
             ),
