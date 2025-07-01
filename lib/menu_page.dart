@@ -61,9 +61,12 @@ class _MenuPageState extends State<MenuPage> {
               ),
             ),
 
-            const SizedBox(height: 25,)
+            const SizedBox(height: 25,),
 
           //search bar
+          TextField(
+            decoration: InputDecoration(border: OutlineInputBorder()),
+          )
 
           //menu list
 
