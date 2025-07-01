@@ -82,7 +82,9 @@ class _MenuPageState extends State<MenuPage> {
                 )
               ),
             ),
-          )
+          ),
+
+          const SizedBox(height: 25),
 
           //menu list
 
