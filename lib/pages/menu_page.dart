@@ -23,6 +23,12 @@ class _MenuPageState extends State<MenuPage> {
     ),
 
     //tuna
+    Food(
+      name: "tuna",
+      price: "31.00",
+      imagePath: "lib/images/tuna.png",
+      rating: "4.3",
+    ),
   ];
   @override
   Widget build(BuildContext context) {
