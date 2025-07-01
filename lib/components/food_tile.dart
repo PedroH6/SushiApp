@@ -25,6 +25,16 @@ class FoodTile extends StatelessWidget {
             ),
 
           //price + rating
+          SizedBox(
+            width: 160,
+            child: Row(
+              children: [
+
+                //price
+                Text('')
+              ],
+            ),
+          )
         ],
       ),
     );
