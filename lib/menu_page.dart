@@ -88,7 +88,10 @@ class _MenuPageState extends State<MenuPage> {
           const SizedBox(height: 25),
 
           //menu list
-          Text("Food Menu"),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 25.0),
+            child: Text("Food Menu"),
+          ),
 
           //popular food 
 
