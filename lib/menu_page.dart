@@ -22,6 +22,7 @@ class _MenuPageState extends State<MenuPage> {
         title: Text('Tokyo', style: TextStyle(color: Colors.grey[900])),
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           //promb banner
           Container(
